@@ -1,0 +1,58 @@
+body {
+  background-color: #ced4da;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+img {
+  width: 50px;
+}
+
+.title {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+
+.menu-buttons {
+  width: 400px;
+  height: 100px;
+  font-size: 30px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+#resource-button {
+  padding-right: 160px;
+}
+
+#gems {
+  padding-right: 220px;
+}
+
+#equipment {
+  padding-right: 150px;
+}
+
+#speedups {
+  padding-right: 110px;
+}
+#vip {
+  padding-right: 200px;
+}
+
+#ap {
+  padding-right: 80px;
+}
